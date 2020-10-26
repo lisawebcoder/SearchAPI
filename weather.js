@@ -6,7 +6,7 @@
         //var api = 'https://api.openweathermap.org/data/2.5/weather?q=';
 		var api = 'http://www.gigablast.com/search?&q=';
 		//var api = 'http://www.gigablast.com/search?&q=&qthz=';
-        //var apikey = '&APPID=53d0750866eaf60d12c0fc7078f16511';
+        //var apikey = '';
 		//var units = "&units=metric";
         //var rand = "&rand=1591116010477";
 		//var rand = "&rand=1";
