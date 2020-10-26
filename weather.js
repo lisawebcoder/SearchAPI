@@ -4,7 +4,7 @@
         var request;
         var input = document.getElementById('city');
         //var api = 'https://api.openweathermap.org/data/2.5/weather?q=';
-		var api = 'http://www.gigablast.com/search?&q=';
+		var api = 'https://www.gigablast.com/search?&q=';
 		//var api = 'http://www.gigablast.com/search?&q=&qthz=';
         //var apikey = '';
 		//var units = "&units=metric";
