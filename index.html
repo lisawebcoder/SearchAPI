@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon"  type="image/png" href="x.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>questions</title>
+
+  <!-- Import our css styles -->
+  <!--link rel="stylesheet" href="styles.css"-->
+</head>
+<body>
+<!--body style ="background-color:lightblue;"-->
+  <div class="main">
+      <h2 class="main-header">Search your questions</h2>
+      <section class="main-input-comment">
+          <label for="comment">Write your question here:</label>
+          <!--textarea
+                  name="comment"
+                  id="comment"
+                  class="main-comment-area"
+                  placeholder="Your comment..."
+          >search:
+          </textarea-->
+		  <!--input id="city" type="text" value="A new value" onfocus="if(this.value=='A new value') this.value='';"-->
+		   <input type="text" id="city" value="">
+		    <input id="cityy" class="main-analyze-button" type="submit" onclick="myFunction()" value="Submit">
+          <!--button id="cityy" class="main-analyze-button" onclick="myFunction()">Search...</button-->
+		  <!--input type="reset"-->
+		  
+<!--input id="entry" type="text"></input-->
+<button id="clear">Clear TextBox</button>
+<script>
+var entry = document.getElementById("city"),
+    clear = document.getElementById("clear");
+
+function clearfield() {   
+    // EDIT: place code for clearing anything else that would be affected here
+    entry.value = "";
+}
+
+clear.addEventListener("click", clearfield, false);
+</script>
+      </section>
+      <section class="main-result">
+          <p id="main-result-block" class="main-result-block invisible">
+		  <!--span><h4>Did you mean this instead?:</h4></span-->
+              <span>
+			 <p><h1 id="student">
+              </h1></p>
+			  </span>
+			
+              <span>Result:</span>
+              <span id="result"></span>
+			
+			  
+          </p>
+      </section>
+  </div>
+
+  <!-- Import axios library -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- Querystring library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.7.0/qs.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+  
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script-->
+	<!--script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script-->
+	<!--script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script-->
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script-->
+  <!-- Import our javascript file -->
+  <script src="weather.js"></script>
+  
+   <!-- Import from working table -->
+ <!--div class="wrapper">
+<div class="profile">
+   <table id= "userdata" border="2">
+  <thead>
+            <th>title</th>
+            <th>url</th>
+            <th>htmlSum</th>
+			<th>sum</th>  
+            <!--th>imageUrl</th>  
+                   	
+        </thead>
+      <tbody>
+
+       </tbody>
+   </table>
+
+</div>
+</div--> 
+<div id="div5" style="background-color:grey;"></div>
+<div id="div6" style="background-color:orange;"></div>
+<script>
+/*
+//im not able to get the script to work with empty field fuck
+document.getElementById("cityy").onclick = function(e) {
+  if (document.getElementById("city").value == "") {
+    //e.preventDefault();
+    alert("Please enter a question");
+  } else{
+greeting = "";
+  }
+}*/
+  /////////////////	
+</script>
+</body>
