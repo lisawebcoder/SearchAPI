@@ -22,7 +22,8 @@
         //var xntg   = "&xntg=4039951131";
         //var qtmn   = "&qtmn=547382388"; 
 		//var qtlg   = "&qtlg=2227060812"; 
-		var qtcj   = "&qtcj=2455588645"  
+		//var qtcj   = "&qtcj=2455588645";
+	        var qtcj = "&qted=1909476483";
 		var format = "&format=json";
 		//var s = "&s";
 		var spell = "&spell=1";
