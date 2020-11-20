@@ -48,7 +48,8 @@
         request = new XMLHttpRequest();
 
         request.open('GET', sum, true);
-        request.setRequestHeader('Accept', 'application/json');
+        //request.setRequestHeader('Accept', 'application/json');
+	request.setRequestHeader('Accept', 'application/json', 'Content-Type', 'application/json', 'Access-Control-Allow-Origin', '*',);    
         request.onload = function () {
 
             var data = JSON.parse(this.response);
