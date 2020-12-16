@@ -26,6 +26,7 @@
 	        var qtcj = "&qted=1909476483";
 	        var qtcj1 = "&akfa=1680917223";
 	        var qtcj2 = "&qtuh=1680917223"; //ubuntu code or mix?
+	        var qtcj3 = "&silq=1680917223";
 		var format = "&format=json";
 		//var s = "&s";
 		var spell = "&spell=1";
@@ -41,7 +42,7 @@
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qthz;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + xntg;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qtmn;
-		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2;
+		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3;
         //var sum = api + input.value + apikey + units;
 		
 
