@@ -28,7 +28,7 @@
 	        var qtcj2 = "&qtuh=1680917223"; //ubuntu code or mix?
 	        var qtcj3 = "&silq=1680917223";
 	        var qtcj4 = "&igaf=3784563987";
-	        var qtcj5 = '&siak=378456398";
+	        var qtcj5 = "&siak=378456398";
 		var format = "&format=json";
 		//var s = "&s";
 		var spell = "&spell=1";
