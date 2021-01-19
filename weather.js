@@ -28,6 +28,7 @@
 	        var qtcj2 = "&qtuh=1680917223"; //ubuntu code or mix?
 	        var qtcj3 = "&silq=1680917223";
 	        var qtcj4 = "&igaf=3784563987";
+	        var qtcj5 = '&siak=378456398";
 		var format = "&format=json";
 		//var s = "&s";
 		var spell = "&spell=1";
@@ -43,7 +44,7 @@
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qthz;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + xntg;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qtmn;
-		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4;
+		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4 + qtcj5;
         //var sum = api + input.value + apikey + units;
 		
 
