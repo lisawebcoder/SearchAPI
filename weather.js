@@ -29,6 +29,7 @@
 	        var qtcj3 = "&silq=1680917223";
 	        var qtcj4 = "&igaf=3784563987";
 	        var qtcj5 = "&siak=378456398";
+	        var qtcj6 = "&qtkl=4244445897";
 		var format = "&format=json";
 		//var s = "&s";
 		var spell = "&spell=1";
@@ -44,7 +45,7 @@
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qthz;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + xntg;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qtmn;
-		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4 + qtcj5;
+		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4 + qtcj5 + qtcj6;
         //var sum = api + input.value + apikey + units;
 		
 
