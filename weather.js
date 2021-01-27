@@ -36,6 +36,9 @@
 		var autospell = "&autospell=1";
 		var n = "&n=100";
 		var showimages = "&showimages=1";
+	        var clean = "&ff=1";
+                var ban = "&sb=0";
+		var collection = "c=main";
 		//var sum = api + input.value + rand + spix + format + s + spell + autospell;
 		//var sum = api + input.value + rand + qthx + format + s + spell + autospell;
 		//var sum = api + input.value + rand + xnbw + format + s + spell + autospell;
@@ -45,7 +48,7 @@
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qthz;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + xntg;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qtmn;
-		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4 + qtcj5 + qtcj6;
+		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4 + qtcj5 + qtcj6 + clean + ban + collection;
         //var sum = api + input.value + apikey + units;
 		
 
