@@ -37,7 +37,7 @@
 		var n = "&n=100";
 		var showimages = "&showimages=1";
 	        var clean = "&ff=1";
-                var ban = "&sb=1";
+                var ban = "&sb=0";
 		var collection = "c=main";
 		//var sum = api + input.value + rand + spix + format + s + spell + autospell;
 		//var sum = api + input.value + rand + qthx + format + s + spell + autospell;
