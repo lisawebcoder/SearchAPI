@@ -31,6 +31,7 @@
 	        var qtcj5 = "&siak=378456398";
 	        var qtcj6 = "&qtkl=4244445897";
 	        var qtcj7 = "&igwl=3042032007";
+	        var qtcj8 = "&tdfp=287222180";
 	        var country = "&qlangcountry=en-us";
 		var format = "&format=json";
 		//var s = "&s";
@@ -50,7 +51,7 @@
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qthz;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + xntg;
 		//var sum = api + input.value + format + spell + autospell + n + showimages + qtmn;
-		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4 + qtcj5 + qtcj6 + qtcj7 + country + clean + ban + collection;
+		var sum = api + input.value + format + spell + autospell + n + showimages + qtcj + qtcj1 + qtcj2 + qtcj3 + qtcj4 + qtcj5 + qtcj6 + qtcj7 + qtcj8 + country + clean + ban + collection;
         //var sum = api + input.value + apikey + units;
 		
 
